@@ -1,0 +1,172 @@
+@font-face {
+    font-family: Pixeboy;
+    src: url(Pixeboy-z8XGD.ttf);
+  }
+
+body {
+    font-family: "Roboto, sans-serif";
+    background: #EBF9FA;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* Nav */
+
+.nav-container{
+    /* cyan/40 */
+    background: #26BFC9;
+    /* Rectangle 7863 */
+    height: 72px;
+    width: 1470px;
+}
+
+.wrapper {
+    max-width: 1470px;
+    margin-left: 16px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    height: 72px;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav .logo{
+    font-family: Pixeboy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    color: #F7F8FA;
+    justify-content: flex-start;
+}
+
+.nav-items{
+    margin-left: auto;
+}
+
+.nav-items li{
+    list-style: none;
+    margin-right: 50px;
+}
+
+
+.nav-btn-container .home-btn{
+    align-self: left;
+    padding-right: 10px;
+}
+
+.nav .hero-content{
+    align-self: left;
+    display: flex;
+}
+
+.header-container{
+    /* cyan/40 */
+    background: #0CA0AB;
+    background-image: url("Background3.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1470px;
+    height: 900px;
+}
+
+.header-container .title-text{
+    font-family: Pixeboy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 200px;
+    color: #F47936;
+    text-shadow: -10px 10px 0px #FFFFFF;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    top: -10px;
+}
+
+.header-container .chapter-line{
+    display: flex;
+    justify-content: center;
+}
+
+.header-container .left_chapter{
+    padding-right: 10px;
+}
+.header-container .right_chapter{
+    padding-left: 10px;
+}
+
+#left_bar {
+    border-radius: 15px;
+    background: #112E27; 
+    width: 150px;
+    height: 3px;
+}
+
+#right_bar {
+    border-radius: 15px;
+    background: #112E27; 
+    width: 150px;
+    height: 3px;
+}
+
+.header-container .chapter-text{
+    font-family: Pixeboy;
+    font-size: 36px;
+    color: #112E27;
+}
+
+.header-container .NY-Text{
+    font-family: Pixeboy;
+    font-size: 84px;
+    color: #112E27;
+    text-shadow: -5px 5px 0px #FFFFFF;
+    text-align: center;
+}
+
+.btn {
+    border: none;
+    background-color: #FDB362;
+    padding: 8px 8px;
+    font-size: 30px;
+    font-family: Pixeboy;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 4px;
+    position:relative;
+    z-index: 10;
+}
+
+.success {
+    color: #142757;
+}
+
+.success:hover {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+.header-container .discord_button{
+    text-align:center;
+    padding-top: 40px;
+}
+
+.header-container .monkey_gif{
+    align-items: flex-end;
+    display: flex;
+    transform: scale(0.5, 0.5);
+    justify-content: center;
+    position: relative;
+    top: -325px;
+}
+
+.monkey_examples {
+    display: flex;
+    justify-content: space-evenly;
+    width: 1470px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

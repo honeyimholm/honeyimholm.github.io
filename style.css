@@ -34,7 +34,7 @@ body {
     margin-left: 16px;
 }
 
-@media (max-width: 500px){
+@media (max-width: 1024px){
     .wrapper {
         margin-left: 0px;
     }
@@ -74,7 +74,7 @@ nav .logo{
     padding-right: 10px;
 }
 
-@media (max-width: 500px){
+@media (max-width: 1024px){
     nav{
         justify-content: space-around;
         height: 60px;
@@ -97,7 +97,7 @@ nav .logo{
     }
 }
 
-/*TODO: if width>500
+/*TODO: if width>1024
 remove SNUB CITY in nav
 fix width 
 remove big city little monkey
@@ -132,7 +132,7 @@ bring monkey gif up (monkey jumps down at 813 px
     top: -10px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 1024px) {
     .header-container .title-text{
         font-size: 150px;
         padding-top: 20px;
@@ -155,7 +155,7 @@ bring monkey gif up (monkey jumps down at 813 px
     padding-left: 10px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 1024px) {
     .header-container .chapter-line{
         display: none;
     }
@@ -191,7 +191,7 @@ bring monkey gif up (monkey jumps down at 813 px
     text-align: center;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 1024px) {
     .header-container .NY-Text{
         font-size: 70px;
     }
@@ -269,7 +269,7 @@ bring monkey gif up (monkey jumps down at 813 px
     text-align: center;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 1024px) {
     .story{
         width: 100%;
         height: auto;
@@ -295,13 +295,13 @@ bring monkey gif up (monkey jumps down at 813 px
     padding-bottom: 20px;
 }
 
-@media (min-width:500px) {
+@media (min-width:1024px) {
     .story .intro-video-mobile{
         display: none;
     }
 }
 
-@media (max-width:500px) {
+@media (max-width:1024px) {
     .story .intro-video-desktop{
         display: none;
     }
@@ -325,10 +325,10 @@ bring monkey gif up (monkey jumps down at 813 px
     top: -352px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 1024px) {
     .header-container .monkey_gif{
         transform: scale(0.3, 0.3);
-        top: -530px;
+        top: -540px;
     }
 }
 
@@ -350,7 +350,7 @@ bring monkey gif up (monkey jumps down at 813 px
     padding-bottom: 5px;
 }
 
-@media (max-width:500px){
+@media (max-width:1024px){
     .monkey_examples {
         display: none;
     }
@@ -361,7 +361,7 @@ bring monkey gif up (monkey jumps down at 813 px
     }
 }
 
-@media (min-width:500px){
+@media (min-width:1024px){
     .monkey_examples_mobile {
         display: none;
     }
@@ -376,7 +376,7 @@ bring monkey gif up (monkey jumps down at 813 px
     background-color: #2d74df;
 }
 
-@media (max-width:500px){
+@media (max-width:1024px){
     .member-features{
         background-image: url("mobile_line_bg_2_cutoff.png");
         height: 1300px;
@@ -411,7 +411,7 @@ bring monkey gif up (monkey jumps down at 813 px
     justify-content: space-evenly;
 }
 
-@media (max-width:500px){
+@media (max-width:1024px){
     .member-features .icon-row{
         display: none;
     }
@@ -439,13 +439,13 @@ bring monkey gif up (monkey jumps down at 813 px
     padding-top: 20px;
 }
 
-@media (max-width:500px){
+@media (max-width:1024px){
     .member-features .member-icons{
         display: none;
     }
 }
 
-@media (min-width:500px){
+@media (min-width:1024px){
     .member-features .member-icons-mobile{
         display: none;
     }
@@ -457,7 +457,7 @@ bring monkey gif up (monkey jumps down at 813 px
     height: 75%;
 }
 
-@media (max-width:500px){
+@media (max-width:1024px){
     .feature-textboxes .textbox{
         padding-bottom: 30px;
     }
@@ -490,6 +490,9 @@ bring monkey gif up (monkey jumps down at 813 px
 .Footer {
     background: #103487;
     height: 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     text-align: center;
 }
 
@@ -499,7 +502,7 @@ bring monkey gif up (monkey jumps down at 813 px
     color: #C8F7EF;
 }
 
-@media (max-width:500px){
+@media (max-width:1024px){
     .Footer {
         height: 60px;
         display: flex;
